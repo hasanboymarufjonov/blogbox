@@ -19,15 +19,17 @@
       </div>  
 
     <h3>Contact Form</h3>
+    <div class="msg"></div>
     <div class="container">
-        <form action="/action_page.php">
+        
+          <form>
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
           <label for="lname">Last Name</label>
           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
       
-          <label for="country">region</label>
+          <label for="country">Region</label>
           <select id="country" name="country">
             <option value="Fergana">Fergana</option>
             <option value="Tashkent">Tashkent</option>
@@ -37,13 +39,16 @@
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
-        </form>
+          <input type="submit" value="Submit" class="btn">
+          </form>
+        
       </div>
 
       <div class="footer">
         <p>@theRealHasanboy</p> 
       </div>
+
+      <script src="main.js"></script>
 </body>
 </html>
 
