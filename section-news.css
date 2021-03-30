@@ -2,3 +2,7 @@
     margin: auto;
     padding: 50px;
  }
+.post{
+    font-family: monospace;
+    font-size: 20px;
+}
